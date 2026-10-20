@@ -526,9 +526,12 @@
     stage.scrollBy({ top: stage.clientHeight * 0.8, behavior: "smooth" });
   });
 
+  // Telas em que o leitor já chegou ao fim: a dica não volta nelas
+  var fimLido = {};
   function atualizarMais() {
     var falta = stage.scrollHeight - stage.clientHeight - stage.scrollTop;
-    cue.hidden = falta < 16;
+    if (falta < 16) fimLido[current] = true;
+    cue.hidden = falta < 16 || fimLido[current] === true;
   }
   stage.addEventListener("scroll", atualizarMais, { passive: true });
   stage.addEventListener("toggle", atualizarMais, true);
