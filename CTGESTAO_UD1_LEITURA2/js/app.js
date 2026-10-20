@@ -526,7 +526,7 @@
     stage.scrollBy({ top: stage.clientHeight * 0.8, behavior: "smooth" });
   });
 
-  // Telas em que o leitor já chegou ao fim: a dica não volta nelas
+  // Telas em que o leitor chegou ao fim nesta visita: a dica some até ele sair da tela
   var fimLido = {};
   function atualizarMais() {
     var falta = stage.scrollHeight - stage.clientHeight - stage.scrollTop;
@@ -572,6 +572,7 @@
     if (i > current && telaBloqueada(current)) return;
     if (i < 0) i = 0;
     if (i > total - 1) i = total - 1;
+    fimLido = {};   // ao trocar de tela, a dica volta a valer para a nova visita
     current = i;
     visitadas[i] = true;
 
