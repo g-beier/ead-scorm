@@ -579,6 +579,7 @@
     counter.textContent = pad(i + 1) + " / " + pad(total);
 
     stage.scrollTop = 0;
+    atualizarMais();
 
     verificarConclusao();
     if (i === total - 1) atualizarFim();
