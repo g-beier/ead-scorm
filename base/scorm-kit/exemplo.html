@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Exemplo: kit de componentes SCORM</title>
+  <link rel="stylesheet" href="css/kit.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="topo">
+    <div class="topo-inner">
+      <div class="topo-titulo">
+        <p class="eyebrow" id="rotulo-curso">Exemplo · componentes do kit</p>
+        <h1 id="titulo-curso">Título do pacote</h1>
+      </div>
+      <div class="progresso" aria-live="polite">
+        <div class="progresso-texto"><span id="prog-num">0</span> de <span id="prog-total">3</span> itens concluídos</div>
+        <div class="barra" role="progressbar" aria-label="Progresso" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="prog-barra">
+          <div class="barra-fill" id="prog-fill"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="menu" aria-label="Etapas">
+    <div class="menu-inner">
+      <ul id="menu-lista"></ul>
+      <span class="menu-count" aria-hidden="true"><span id="menu-num">0</span>/<span id="menu-total">3</span></span>
+    </div>
+    <div class="mini-barra" aria-hidden="true"><div class="mini-fill" id="mini-fill"></div></div>
+  </nav>
+
+  <main id="conteudo" tabindex="-1">
+    <section id="v-texto" class="view" hidden>
+      <h2>Texto e cartões</h2>
+      <p class="lead">Cartão de destaque, duas colunas, aviso e passos recolhíveis.</p>
+      <div class="card destaque"><h3>Objetivos</h3>
+        <ul class="lista check"><li>Item com marca de conferência.</li><li>Outro item da lista.</li></ul>
+      </div>
+      <div class="dois">
+        <div class="card col-muda"><h3><span class="ic">↻</span>O que muda</h3><ul class="lista"><li>Primeiro ponto.</li><li>Segundo ponto, com menção a Variação 2.</li></ul></div>
+        <div class="card col-nao"><h3><span class="ic">⚓</span>O que não muda</h3><ul class="lista check"><li>Primeiro ponto.</li></ul></div>
+      </div>
+      <div class="card alerta forte" style="margin-top:16px"><h3><span class="ic">⚠</span>Exceção importante</h3>
+        <ul class="lista"><li>Texto de alerta: use com critério, uma vez por pacote.</li></ul>
+      </div>
+      <div class="card" id="passos-box" style="margin-top:16px"></div>
+      <div class="card" style="margin-top:16px">
+        <h3>Referências</h3>
+        <div id="refs-box"></div>
+      </div>
+      <div class="acoes"><button class="btn" type="button" data-ir="interacao">Ir para a interação</button></div>
+    </section>
+
+    <section id="v-interacao" class="view" hidden>
+      <h2>Interação</h2>
+      <p class="lead">Quiz com retorno por alternativa, cartões em grade e revelar com pensamento prévio.</p>
+      <div class="card"><div id="quiz-box"></div></div>
+      <div class="pense" id="pense">
+        <h3>Pense antes de ver a análise</h3>
+        <ul class="lista"><li>Pergunta que orienta a leitura.</li></ul>
+        <div class="acoes"><button class="btn" type="button" id="btn-revelar">Revelar a análise</button></div>
+      </div>
+      <div id="analise" hidden>
+        <div class="sintese-uma">Frase-síntese do item, em destaque.</div>
+        <div class="card pergunta"><h3>Pergunta reflexiva</h3><p style="font-weight:600">Pergunta para o aluno pensar?</p>
+          <div id="reflexao-box" style="margin-top:12px"></div>
+        </div>
+      </div>
+      <div class="acoes"><button class="btn sec" type="button" data-ir="fechamento">Ir para o fechamento</button></div>
+    </section>
+
+    <section id="v-fechamento" class="view" hidden>
+      <h2>Fechamento</h2>
+      <div id="conclusao-box"></div>
+      <h3>Tabela</h3>
+      <table>
+        <thead><tr><th>#</th><th>Item</th><th>O que ensina</th></tr></thead>
+        <tbody>
+          <tr><td class="n">1</td><td><strong>Primeiro item</strong></td><td data-label="O que ensina">Lição do primeiro item.</td></tr>
+          <tr><td class="n">2</td><td><strong>Segundo item</strong></td><td data-label="O que ensina">Lição do segundo item.</td></tr>
+        </tbody>
+      </table>
+      <div class="tres" style="margin-top:16px">
+        <div>PROTEGER<small>primeiro princípio</small></div>
+        <div>REGISTRAR<small>segundo princípio</small></div>
+        <div>COMUNICAR<small>terceiro princípio</small></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>Exemplo de uso dos componentes do kit.</p>
+    <button type="button" class="topo-link" id="btn-topo">↑ Voltar ao topo</button>
+  </footer>
+
+  <script src="js/scorm.js"></script>
+  <script src="js/kit.js"></script>
+  <script src="js/moodle.js"></script>
+  <script>
+  (function () {
+    "use strict";
+    var ETAPAS = [
+      { id: "texto", rotulo: "1. Texto" },
+      { id: "interacao", rotulo: "2. Interação" },
+      { id: "fechamento", rotulo: "3. Fechamento" }
+    ];
+    var IDS = ["texto", "interacao", "fechamento"];
+    var TOTAL = 3;
+    var vistos = {};
+    var refletiu = false;
+
+    Scorm.init();
+
+    function mostrar(id) {
+      Kit.mostrarView(IDS, id);
+      Kit.marcarAtual(document.getElementById("menu-lista"), id);
+      if (id === "texto") {
+        document.getElementById("refs-box").innerHTML = Kit.listaRefs([
+          "Texto simples, sem link.",
+          { titulo: "Documento de exemplo", detalhe: "com detalhe.", url: "https://www.planalto.gov.br/" }
+        ]);
+      }
+      vistos[id] = true;
+      var n = Object.keys(vistos).length;
+      Kit.progresso({ num: "prog-num", total: "prog-total", fill: "prog-fill", barra: "prog-barra", menuNum: "menu-num", menuTotal: "menu-total", mini: "mini-fill" }, n, TOTAL);
+      if (n === TOTAL && refletiu) Kit.concluir();
+      window.scrollTo(0, 0);
+      document.getElementById("conteudo").focus({ preventScroll: true });
+    }
+
+    Kit.montarMenu(document.getElementById("menu-lista"), ETAPAS, mostrar);
+    document.querySelectorAll("[data-ir]").forEach(function (b) {
+      b.addEventListener("click", function () { mostrar(b.getAttribute("data-ir")); });
+    });
+    document.getElementById("btn-topo").addEventListener("click", function () { MoodleAltura.irAoTopo(); });
+    mostrar("texto");
+
+    Kit.quiz(document.getElementById("quiz-box"), {
+      enunciado: "Marque todas as alternativas corretas.",
+      opcoes: [
+        { texto: "Alternativa correta A.", correta: true, fb: "Explicação da alternativa A." },
+        { texto: "Alternativa errada B.", correta: false, fb: "Explicação da alternativa B." },
+        { texto: "Alternativa correta C.", correta: true, fb: "Explicação da alternativa C." }
+      ]
+    });
+
+    document.getElementById("btn-revelar").addEventListener("click", function () {
+      document.getElementById("pense").hidden = true;
+      document.getElementById("analise").hidden = false;
+      Kit.reflexao(document.getElementById("reflexao-box"), {
+        id: "exemplo_reflexao",
+        aviso: "Exemplo de aviso sobre o envio da reflexão.",
+        opcional: true,
+        enviada: refletiu,
+        onEnviada: function () {
+          refletiu = true;
+          if (Object.keys(vistos).length === TOTAL) Kit.concluir();
+        }
+      });
+    });
+
+    document.getElementById("conclusao-box").innerHTML = "";
+  })();
+  </script>
+</body>
+</html>

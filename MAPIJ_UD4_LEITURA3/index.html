@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Estudo de caso: proteção de crianças e adolescentes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="topo">
+    <div class="topo-inner">
+      <div class="topo-titulo">
+        <p class="eyebrow" id="rotulo-curso">Estudo de caso e variações</p>
+        <h1 id="titulo-curso"></h1>
+      </div>
+      <div class="progresso" aria-live="polite">
+        <div class="progresso-texto"><span id="prog-num">0</span> de <span id="prog-total">15</span> variações exploradas</div>
+        <div class="barra" role="progressbar" aria-label="Progresso nas variações" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="prog-barra">
+          <div class="barra-fill" id="prog-fill"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="menu" aria-label="Etapas do estudo de caso">
+    <div class="menu-inner">
+      <ul id="menu-lista"></ul>
+      <span class="menu-count" aria-hidden="true"><span id="menu-num">0</span>/<span id="menu-total">15</span></span>
+    </div>
+    <div class="mini-barra" aria-hidden="true"><div class="mini-fill" id="mini-fill"></div></div>
+  </nav>
+
+  <main id="conteudo" tabindex="-1">
+    <section id="v-inicio" class="view" hidden></section>
+    <section id="v-caso" class="view" hidden></section>
+    <section id="v-fluxo" class="view" hidden></section>
+    <section id="v-variacoes" class="view" hidden></section>
+    <section id="v-sintese" class="view" hidden></section>
+    <section id="v-refs" class="view" hidden></section>
+  </main>
+
+  <footer class="rodape">
+    <p>Material de formação sobre proteção infantojuvenil. Reflexões só são registradas quando você clica em “Enviar reflexão”.</p>
+    <button type="button" class="topo-link" id="btn-topo">↑ Voltar ao topo</button>
+  </footer>
+
+  <script src="js/scorm.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

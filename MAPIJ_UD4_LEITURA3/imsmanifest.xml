@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="estudo-caso-protecao-escotismo" version="1.0"
+          xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="org-estudo-caso">
+    <organization identifier="org-estudo-caso">
+      <title>Estudo de caso: comportamento sexualizado inadequado entre jovens no escotismo</title>
+      <item identifier="item-1" identifierref="res-1" isvisible="true">
+        <title>Estudo de caso e variações</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="res-1" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html"/>
+      <file href="css/style.css"/>
+      <file href="js/scorm.js"/>
+      <file href="js/data.js"/>
+      <file href="js/app.js"/>
+      <file href="fonts/poppins-400.woff2"/>
+      <file href="fonts/poppins-500.woff2"/>
+      <file href="fonts/poppins-600.woff2"/>
+      <file href="fonts/poppins-700.woff2"/>
+      <file href="fonts/krona-one-400.woff2"/>
+      <file href="fonts/LICENSE-Poppins-OFL.txt"/>
+      <file href="fonts/LICENSE-KronaOne-OFL.txt"/>
+    </resource>
+  </resources>
+</manifest>
