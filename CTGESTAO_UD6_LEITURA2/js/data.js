@@ -119,8 +119,7 @@ window.CONTEUDO = {
             "Necessidade",
             "Perfil",
             "Divulgação",
-            "Contato",
-            "Inscrição",
+            "Recepção",
             "Entrevista"
           ],
           porque: "Antes da entrevista, cada passo tem alguém responsável." } ],
@@ -129,6 +128,7 @@ window.CONTEUDO = {
         "a informação é a mesma em todos os canais e em todas as conversas;",
         "a aproximação é dinâmica e atraente, e ao mesmo tempo séria e segura."
       ],
+      destaque: "Os documentos, as certidões e a aprovação da diretoria vêm depois da entrevista, no ingresso.",
       fonte: "Fonte: Gestão de Adultos – Captando adultos" },
 
     { tipo: "fim",
