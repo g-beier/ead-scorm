@@ -220,3 +220,9 @@ li { margin-bottom: 6px; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 @media (max-width: 520px) { .grid.grid-2 { grid-template-columns: minmax(0, 1fr); } }
+
+/* Hifenização mais rara: só em palavras longas, com pelo menos 4 letras antes e depois do corte,
+   no máximo duas linhas seguidas com hífen, e fora de títulos, botões e rótulos. */
+body { hyphenate-limit-chars: 10 4 4; hyphenate-limit-lines: 2; }
+h1, h2, h3, .kicker, .topo-h1, .eyebrow, .flow-name, .tl-n, .progresso-texto, button, .quiz-opc, .btn-act, .btn-more, .nav-btn { hyphens: manual; -webkit-hyphens: manual; }
+.source a { color: var(--navy-3); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }

@@ -16,7 +16,7 @@ window.CONTEUDO = {
         { cor: "navy", titulo: "Região e Nacional", paras: ["Oferecem os cursos da formação básica, os módulos e as oficinas."] }
       ],
       destaque: "O processo de formação acompanha todo o ciclo de vida do adulto e é personalizado e contínuo.",
-      fonte: "Fonte: POR; Política Nacional de Adultos no Movimento Escoteiro" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/POR_2025_10-2.pdf' target='_blank' rel='noopener'>P.O.R. 2025</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>" },
 
     { kicker: "Conceito",
       titulo: "O que é uma necessidade de formação",
@@ -35,7 +35,7 @@ window.CONTEUDO = {
           "Um mesmo sinal pode ter as duas origens: uma parte é formação, e outra, não."
         ] }],
       destaque: "Há necessidade de formação quando falta ao adulto uma competência que a função pede.",
-      fonte: "Fonte: POR; Política Nacional de Adultos no Movimento Escoteiro" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/POR_2025_10-2.pdf' target='_blank' rel='noopener'>P.O.R. 2025</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>" },
 
     { kicker: "Diagnóstico",
       titulo: "Identificar as necessidades",
@@ -48,7 +48,7 @@ window.CONTEUDO = {
         "o que os próprios adultos relatam e os seus planos pessoais de formação."
       ],
       destaque: "Na UEL, o diretor de métodos educativos coordena a formação e conduz os diagnósticos sobre a capacitação dos voluntários.",
-      fonte: "Fonte: Política Nacional de Adultos no Movimento Escoteiro; Perfis: cargos e funções – nível local" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Perfis-Cargos-e-Fun%C3%A7%C3%B5es-N%C3%ADvel-Local-set19.pdf' target='_blank' rel='noopener'>Perfis: Cargos e Funções – Nível Local</a>" },
 
     { kicker: "Levantamento",
       titulo: "Por função e por seção",
@@ -58,7 +58,7 @@ window.CONTEUDO = {
         { cor: "yellow", titulo: "Por seção", paras: ["O que a aplicação do programa mostra numa seção: por exemplo, uma equipe que precisa reforçar o sistema de patrulhas."] }
       ],
       destaque: "O levantamento não avalia ninguém. As necessidades de cada pessoa são tratadas no acompanhamento individual; aqui, aparecem somadas.",
-      fonte: "Fonte: Política Nacional de Adultos no Movimento Escoteiro" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>" },
 
     { kicker: "Planos",
       titulo: "Os planos pessoais como ponto de partida",
@@ -69,7 +69,7 @@ window.CONTEUDO = {
         { cor: "navy", titulo: "Quando", paras: ["Os prazos que os planos já fixaram."] }
       ],
       destaque: "O plano local parte dos planos pessoais, sem expor o conteúdo de cada um. Depois de cada experiência formativa, o adulto volta com dúvidas e ideias, e a UEL apoia a aplicação na função.",
-      fonte: "Fonte: Política Nacional de Adultos no Movimento Escoteiro; Entendendo a função: Assessor Pessoal de Formação" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2016/02/Manual_do_APF.pdf' target='_blank' rel='noopener'>Entendendo a função: Assessor Pessoal de Formação</a>" },
 
     { kicker: "Linha",
       titulo: "A linha de formação",
@@ -87,7 +87,7 @@ window.CONTEUDO = {
           "As comunidades de aprendizagem podem ser organizadas por qualquer nível, inclusive o local."
         ] }],
       destaque: "O curso oferece o aprendizado comum a todos de uma mesma linha. O módulo atende à necessidade específica de cada adulto.",
-      fonte: "Fonte: Política Nacional de Adultos no Movimento Escoteiro; POR" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/POR_2025_10-2.pdf' target='_blank' rel='noopener'>P.O.R. 2025</a>" },
 
     { kicker: "Oferta",
       titulo: "O que a UEL oferece internamente",
@@ -99,7 +99,7 @@ window.CONTEUDO = {
         "a atuação ao lado de um adulto com mais experiência, em atividades reais."
       ],
       destaque: "A oferta interna complementa os cursos, não os substitui: não conclui etapa da formação básica. Respeita a disponibilidade e o ritmo de cada adulto.",
-      fonte: "Fonte: Política Nacional de Adultos no Movimento Escoteiro; Gestão de Adultos – Captando adultos; POR" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>; <a href='https://escoteiros.org.br/wp-content/uploads/2021/12/captando_adultos_2021_07-12-1.pdf' target='_blank' rel='noopener'>Captando e engajando adultos para o Movimento Escoteiro</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/POR_2025_10-2.pdf' target='_blank' rel='noopener'>P.O.R. 2025</a>" },
 
     { kicker: "Decisão",
       titulo: "Oferecer ou encaminhar",
@@ -108,7 +108,7 @@ window.CONTEUDO = {
         { cor: "yellow", titulo: "A UEL encaminha quando", paras: ["• corresponde a uma etapa da formação básica;", "• pede um módulo, uma oficina ou um curso técnico;", "• exige formadores ou certificação."] }
       ],
       destaque: "As duas respostas podem andar juntas: o adulto faz o curso, e a UEL apoia a aplicação do que ele aprendeu.",
-      fonte: "Fonte: Política Nacional de Adultos no Movimento Escoteiro; Entendendo a função: Assessor Pessoal de Formação" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2016/02/Manual_do_APF.pdf' target='_blank' rel='noopener'>Entendendo a função: Assessor Pessoal de Formação</a>" },
 
     { kicker: "Plano local",
       titulo: "O plano local de capacitação",
@@ -129,7 +129,7 @@ window.CONTEUDO = {
           "A disponibilidade de cada adulto é respeitada: a formação ocorre no ritmo de cada um."
         ] }],
       destaque: "Avaliar a eficácia da formação é ver o seu efeito na aplicação do programa, e não só contar quem fez o curso.",
-      fonte: "Fonte: Política Nacional de Adultos no Movimento Escoteiro; Gestão de Adultos – Captando adultos" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>; <a href='https://escoteiros.org.br/wp-content/uploads/2021/12/captando_adultos_2021_07-12-1.pdf' target='_blank' rel='noopener'>Captando e engajando adultos para o Movimento Escoteiro</a>" },
 
     { kicker: "Leitura",
       titulo: "Roteiro de leitura",
@@ -141,7 +141,7 @@ window.CONTEUDO = {
         "Captando p. 27: atualização dos voluntários e o ritmo de cada um;",
         "Perfis p. 43: o diretor de métodos educativos na formação dos voluntários."
       ],
-      fonte: "Fonte: PNAME; POR; Entendendo a função: APF; Captando adultos; Perfis" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/POR_2025_10-2.pdf' target='_blank' rel='noopener'>P.O.R. 2025</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2016/02/Manual_do_APF.pdf' target='_blank' rel='noopener'>Entendendo a função: Assessor Pessoal de Formação</a>; <a href='https://escoteiros.org.br/wp-content/uploads/2021/12/captando_adultos_2021_07-12-1.pdf' target='_blank' rel='noopener'>Captando e engajando adultos para o Movimento Escoteiro</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Perfis-Cargos-e-Fun%C3%A7%C3%B5es-N%C3%ADvel-Local-set19.pdf' target='_blank' rel='noopener'>Perfis: Cargos e Funções – Nível Local</a>" },
 
     { tipo: "fim",
       titulo: "Formar para responder",

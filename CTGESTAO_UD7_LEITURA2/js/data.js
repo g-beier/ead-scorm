@@ -16,7 +16,7 @@ window.CONTEUDO = {
         { cor: "yellow", titulo: "Depois", paras: ["Serve de referência inicial para as decisões para o futuro."] }
       ],
       destaque: "O processo não é obrigatório. A UEL que o adota segue as orientações do manual.",
-      fonte: "Fonte: Manual de Entrevista por Competências" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/10/Manual_de_entrevista_por_compete%CC%82ncias_04.pdf' target='_blank' rel='noopener'>Manual de Entrevista por Competências</a>" },
 
     { kicker: "Conversa",
       titulo: "Uma conversa tranquila",
@@ -27,7 +27,7 @@ window.CONTEUDO = {
         "o que a motiva e o que pretende oferecer à UEL."
       ],
       destaque: "Depois, a UEL apresenta sua estrutura, o perfil de adulto que deseja e a disponibilidade que a função pede. Deixa claro que não é preciso conhecer o Movimento a fundo: há oportunidades de aprendizagem.",
-      fonte: "Fonte: Manual de Entrevista por Competências" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/10/Manual_de_entrevista_por_compete%CC%82ncias_04.pdf' target='_blank' rel='noopener'>Manual de Entrevista por Competências</a>" },
 
     { kicker: "Equipe",
       titulo: "A equipe de captação",
@@ -37,7 +37,7 @@ window.CONTEUDO = {
         { cor: "yellow", titulo: "Responda", paras: ["Esteja pronto para dúvidas sobre o Movimento Escoteiro e sobre a função."] },
         { cor: "navy", titulo: "Acolha", paras: ["Receba a pessoa com cordialidade e apresente-a à equipe."] }
       ],
-      fonte: "Fonte: Manual de Entrevista por Competências; Perfis: cargos e funções – nível local" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/10/Manual_de_entrevista_por_compete%CC%82ncias_04.pdf' target='_blank' rel='noopener'>Manual de Entrevista por Competências</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Perfis-Cargos-e-Fun%C3%A7%C3%B5es-N%C3%ADvel-Local-set19.pdf' target='_blank' rel='noopener'>Perfis: Cargos e Funções – Nível Local</a>" },
 
     { kicker: "Condução",
       titulo: "Como conduzir",
@@ -56,7 +56,7 @@ window.CONTEUDO = {
           "Prepare o local: a acessibilidade pode ser física, tecnológica ou assistida.",
           "Antes de ajudar, pergunte se a pessoa quer ou precisa de ajuda."
         ] }],
-      fonte: "Fonte: Manual de Entrevista por Competências" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/10/Manual_de_entrevista_por_compete%CC%82ncias_04.pdf' target='_blank' rel='noopener'>Manual de Entrevista por Competências</a>" },
 
     { kicker: "Partes",
       titulo: "Duas partes",
@@ -66,7 +66,7 @@ window.CONTEUDO = {
         { cor: "navy", titulo: "Parte 2 – Escotista", paras: ["Perguntas por ramo: lobinho, escoteiro, sênior e pioneiro."] }
       ],
       destaque: "Numa UEL nova, a entrevista de ampla captação aplica a Parte 1 e as duas Partes 2.",
-      fonte: "Fonte: Manual de Entrevista por Competências" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/10/Manual_de_entrevista_por_compete%CC%82ncias_04.pdf' target='_blank' rel='noopener'>Manual de Entrevista por Competências</a>" },
 
     { kicker: "Modelos",
       titulo: "Dois modelos",
@@ -77,7 +77,7 @@ window.CONTEUDO = {
         { cor: "yellow", titulo: "Modelo 2", paras: ["Traz as respostas mais comuns: em verde, as mais indicadas; em verde-claro, as aceitáveis; em amarelo, os alertas."] }
       ],
       destaque: "O modelo fica com quem entrevista. Não se entrega para a pessoa preencher, e os comentários não se leem na entrevista.",
-      fonte: "Fonte: Manual de Entrevista por Competências" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/10/Manual_de_entrevista_por_compete%CC%82ncias_04.pdf' target='_blank' rel='noopener'>Manual de Entrevista por Competências</a>" },
 
     { kicker: "Alertas",
       titulo: "Alertas e avaliação",
@@ -88,7 +88,7 @@ window.CONTEUDO = {
         "há muitos alertas? Isso pode indicar que a pessoa não deve ocupar função na UEL."
       ],
       destaque: "Os alertas são úteis sobretudo para equipes de captação recém-formadas e para UELs com pouca experiência nessa tarefa.",
-      fonte: "Fonte: Manual de Entrevista por Competências" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/10/Manual_de_entrevista_por_compete%CC%82ncias_04.pdf' target='_blank' rel='noopener'>Manual de Entrevista por Competências</a>" },
 
     { kicker: "Registro",
       titulo: "O registro do resultado",
@@ -99,7 +99,7 @@ window.CONTEUDO = {
         { cor: "navy", titulo: "Formação", paras: ["O que a função vai pedir e a pessoa ainda não tem."] }
       ],
       destaque: "Registre as evidências observadas, a decisão sobre o ingresso e as necessidades de formação identificadas. Pergunta pulada ou resposta interrompida fica como não observada. Guarde só os dados necessários.",
-      fonte: "Fonte: Manual de Entrevista por Competências" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/10/Manual_de_entrevista_por_compete%CC%82ncias_04.pdf' target='_blank' rel='noopener'>Manual de Entrevista por Competências</a>" },
 
     { kicker: "Roteiro",
       titulo: "Roteiro de leitura do manual",

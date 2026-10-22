@@ -11,7 +11,7 @@ window.CONTEUDO = {
       titulo: "O programa depende de condições",
       paras: ["A seção conduz o ciclo de programa com os jovens: escolhe, realiza e avalia as atividades. A diretoria não substitui essa condução. Ela cria as condições para que o ciclo aconteça."],
       destaque: "O Estatuto da UEB atribui à Diretoria de Grupo promover as facilidades necessárias para as reuniões e atividades (art. 36, II). Facilidade, aqui, é espaço, recurso, prazo e informação. Não é o planejamento da atividade.",
-      fonte: "Fonte: Estatuto da UEB" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Estatuto_2024_Atualizado.pdf' target='_blank' rel='noopener'>Estatuto da UEB</a>" },
 
     { kicker: "Ciclo",
       titulo: "Três momentos de cada ciclo",
@@ -48,7 +48,7 @@ window.CONTEUDO = {
         { cor: "navy", titulo: "Aviso", paras: ["Atividade que pede autorização, material especial ou ajuda é avisada com antecedência."] },
         { cor: "navy", titulo: "Autorização", paras: ["O que a família precisa assinar está identificado, com prazo de devolução."] }
       ],
-      fonte: "Fonte: Como falar com os pais" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2022/04/Como_falar_com_os_pais-1.pdf' target='_blank' rel='noopener'>Como falar com os pais</a>" },
 
     { kicker: "Depois",
       titulo: "Depois: três indicadores",

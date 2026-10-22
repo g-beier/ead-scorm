@@ -26,7 +26,7 @@ window.CONTEUDO = {
           "<strong>O retrato é feito por quem vive a UEL.</strong>",
           "A diretoria e os escotistas conhecem a situação e o resultado de tentativas anteriores. São também quem vai sustentar as soluções. Façamos um Plano de Grupo chama essa leitura de diagnóstico da situação atual."
         ] }],
-      fonte: "Fonte: Façamos um Plano de Grupo" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/facamos_um_plano_de_grupo-1.pdf' target='_blank' rel='noopener'>Façamos um Plano de Grupo</a>" },
 
     { kicker: "Dados",
       titulo: "Efetivo, permanência e frequência",
@@ -84,7 +84,7 @@ window.CONTEUDO = {
           "As seções conhecem o calendário antes do primeiro ciclo de programa do ano, porque consideram as ações do grupo ao organizar as suas (Façamos um Plano de Grupo).",
           "Nas patrocinadas, quem aprova o calendário segue a organização da patrocinadora (Estatuto da UEB, art. 31, parágrafo único)."
         ] }],
-      fonte: "Fonte: Estatuto da UEB; Façamos um Plano de Grupo" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Estatuto_2024_Atualizado.pdf' target='_blank' rel='noopener'>Estatuto da UEB</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/facamos_um_plano_de_grupo-1.pdf' target='_blank' rel='noopener'>Façamos um Plano de Grupo</a>" },
 
     { kicker: "Acompanhamento",
       titulo: "Aprovar não encerra o ano",

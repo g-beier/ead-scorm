@@ -26,7 +26,7 @@ window.CONTEUDO = {
           ],
         },
       ],
-      fonte: "Fonte: Estatuto da UEB",
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Estatuto_2024_Atualizado.pdf' target='_blank' rel='noopener'>Estatuto da UEB</a>",
     },
 
     {
@@ -82,7 +82,7 @@ window.CONTEUDO = {
           ],
         },
       ],
-      fonte: "Fonte: Estatuto da UEB",
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Estatuto_2024_Atualizado.pdf' target='_blank' rel='noopener'>Estatuto da UEB</a>",
       modais: [
         {
           id: "m-minimos",
@@ -132,7 +132,7 @@ window.CONTEUDO = {
           ],
         },
       ],
-      fonte: "Fonte: Estatuto da UEB",
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Estatuto_2024_Atualizado.pdf' target='_blank' rel='noopener'>Estatuto da UEB</a>",
     },
 
     {
@@ -164,7 +164,7 @@ window.CONTEUDO = {
       paras: [
         "Nas patrocinadas, a função de Diretor-Presidente pode ser exercida por um Diretor de Escotismo, que faz a ligação entre a UEL e a patrocinadora.",
       ],
-      fonte: "Fonte: Estatuto da UEB; P.O.R.",
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Estatuto_2024_Atualizado.pdf' target='_blank' rel='noopener'>Estatuto da UEB</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/POR_2025_10-2.pdf' target='_blank' rel='noopener'>P.O.R. 2025</a>",
     },
 
     {
@@ -257,7 +257,7 @@ window.CONTEUDO = {
           ],
         },
       ],
-      fonte: "Fonte: Estatuto da UEB",
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Estatuto_2024_Atualizado.pdf' target='_blank' rel='noopener'>Estatuto da UEB</a>",
       modais: [
         {
           id: "m-delegacao",
@@ -293,7 +293,7 @@ window.CONTEUDO = {
           ],
         },
       ],
-      fonte: "Fonte: P.O.R.",
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/POR_2025_10-2.pdf' target='_blank' rel='noopener'>P.O.R. 2025</a>",
     },
 
     {
@@ -326,7 +326,7 @@ window.CONTEUDO = {
           ],
         },
       ],
-      fonte: "Fonte: Estatuto da UEB",
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Estatuto_2024_Atualizado.pdf' target='_blank' rel='noopener'>Estatuto da UEB</a>",
     },
 
     {
@@ -408,7 +408,7 @@ window.CONTEUDO = {
           ],
         },
       ],
-      fonte: "Fonte: Estatuto da UEB; P.O.R.",
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Estatuto_2024_Atualizado.pdf' target='_blank' rel='noopener'>Estatuto da UEB</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/POR_2025_10-2.pdf' target='_blank' rel='noopener'>P.O.R. 2025</a>",
       modais: [
         {
           id: "m-fiscal",
@@ -508,7 +508,7 @@ window.CONTEUDO = {
       ],
       destaque:
         "Um bom sinal: os escotistas sabem a quem pedir cada coisa e recebem a resposta no prazo combinado.",
-      fonte: "Fonte: P.O.R.; Estatuto da UEB",
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/POR_2025_10-2.pdf' target='_blank' rel='noopener'>P.O.R. 2025</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Estatuto_2024_Atualizado.pdf' target='_blank' rel='noopener'>Estatuto da UEB</a>",
     },
 
     {

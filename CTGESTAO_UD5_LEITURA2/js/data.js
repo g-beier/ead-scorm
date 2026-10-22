@@ -16,7 +16,7 @@ window.CONTEUDO = {
         { cor: "navy", titulo: "Decisão", paras: ["O que acontece quando o prazo chega."] }
       ],
       destaque: "Não se acumulam vários ciclos ao mesmo tempo. Cada função tem um prazo. O acompanhamento é que encaminha a decisão.",
-      fonte: "Fonte: Política Nacional de Adultos" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>" },
 
     { kicker: "Captação",
       titulo: "Captação: da vaga ao início",
@@ -45,7 +45,7 @@ window.CONTEUDO = {
         { cor: "navy", titulo: "Formação", paras: ["O que a função pede desenvolver. O acordo registra a necessidade."] },
         { cor: "yellow", titulo: "Avaliação", paras: ["Quando o desempenho será visto. O vencimento é um desses momentos."] }
       ],
-      fonte: "Fonte: Política Nacional de Adultos" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>" },
 
     { kicker: "Desempenho",
       titulo: "Desempenho: a tarefa e o apoio",

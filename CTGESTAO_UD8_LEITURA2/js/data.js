@@ -16,7 +16,7 @@ window.CONTEUDO = {
         { cor: "navy", titulo: "Continuidade", paras: ["Ela permanece e cresce na função."] }
       ],
       destaque: "Como as demais etapas da gestão de adultos, a integração é planejada. Não se deixa ao acaso.",
-      fonte: "Fonte: Gestão de Adultos – Captando adultos" },
+      fonte: "Fonte: <a href='https://escoteiros.org.br/wp-content/uploads/2021/12/captando_adultos_2021_07-12-1.pdf' target='_blank' rel='noopener'>Captando e engajando adultos para o Movimento Escoteiro</a>" },
 
     { kicker: "Acordo",
       titulo: "O que o acordo deve conter",
@@ -29,7 +29,7 @@ window.CONTEUDO = {
         { cor: "navy", titulo: "Formação", paras: ["As competências que o adulto precisa desenvolver."] },
         { cor: "yellow", titulo: "Avaliação", paras: ["Os procedimentos e os momentos de avaliação."] }
       ],
-      fonte: "Fonte: Política Nacional de Adultos no Movimento Escoteiro" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>" },
 
     { kicker: "Função",
       titulo: "A função e os objetivos",
@@ -39,7 +39,7 @@ window.CONTEUDO = {
         { cor: "yellow", titulo: "Objetivos", paras: ["O que se espera da pessoa no período do acordo, com marcos que permitam conferir o que foi feito."] }
       ],
       destaque: "Regras como assiduidade, uso do uniforme e compromisso com a formação são apresentadas com clareza e tranquilidade, para que a UEL perceba qualquer impedimento e avalie se há flexibilidade possível.",
-      fonte: "Fonte: Perfis: cargos e funções – nível local; Gestão de Adultos – Captando adultos" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Perfis-Cargos-e-Fun%C3%A7%C3%B5es-N%C3%ADvel-Local-set19.pdf' target='_blank' rel='noopener'>Perfis: Cargos e Funções – Nível Local</a>; <a href='https://escoteiros.org.br/wp-content/uploads/2021/12/captando_adultos_2021_07-12-1.pdf' target='_blank' rel='noopener'>Captando e engajando adultos para o Movimento Escoteiro</a>" },
 
     { kicker: "Prazo",
       titulo: "Prazo e avaliação",
@@ -56,7 +56,7 @@ window.CONTEUDO = {
           "Sem avaliação, a renovação vira rotina do registro, e a decisão para o futuro acontece por omissão."
         ] }],
       destaque: "Um período inicial definido no acordo, com uma conversa marcada no fim, ajuda a confirmar as expectativas das duas partes.",
-      fonte: "Fonte: Gestão de Adultos – Captando adultos; Modelo de Acordo de Trabalho Voluntário, gerado no Paxtu" },
+      fonte: "Fonte: <a href='https://escoteiros.org.br/wp-content/uploads/2021/12/captando_adultos_2021_07-12-1.pdf' target='_blank' rel='noopener'>Captando e engajando adultos para o Movimento Escoteiro</a>; Modelo de Acordo de Trabalho Voluntário, gerado no Paxtu" },
 
     { kicker: "Formação",
       titulo: "Formação e apoio",
@@ -66,7 +66,7 @@ window.CONTEUDO = {
         { cor: "yellow", titulo: "Apoio da UEL", paras: ["Recursos para as atividades, meios para a formação e disposição para que a pessoa tenha êxito. O acordo pode dizer quem acompanha o novo adulto."] }
       ],
       destaque: "Para chefe de seção, em caso de necessidade premente, a Diretoria Regional pode autorizar o exercício provisório, por prazo definido, até a conclusão do Nível Intermediário.",
-      fonte: "Fonte: POR; Modelo de Acordo de Trabalho Voluntário, gerado no Paxtu" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/POR_2025_10-2.pdf' target='_blank' rel='noopener'>P.O.R. 2025</a>; Modelo de Acordo de Trabalho Voluntário, gerado no Paxtu" },
 
     { kicker: "Antes",
       titulo: "Antes da primeira atividade",
@@ -83,7 +83,7 @@ window.CONTEUDO = {
           "Até o fim da vigência, quem quiser continuar informa a UEL, que efetiva o registro definitivo.",
           "Depois de usá-lo, o associado só pode recorrer a ele de novo após dois anos."
         ] }],
-      fonte: "Fonte: Resolução CAN 07/2023; POR" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2023/11/Resolucao-CAN-07-23-Disciplina-a-pratica-do-Escotismo-no-Brasil.pdf-VALIDA.pdf' target='_blank' rel='noopener'>Resolução CAN 07/2023</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/POR_2025_10-2.pdf' target='_blank' rel='noopener'>P.O.R. 2025</a>" },
 
     { kicker: "Conteúdo",
       titulo: "O que a integração apresenta",
@@ -95,7 +95,7 @@ window.CONTEUDO = {
         "as regras do grupo: frequência, local e horário das reuniões, uniforme e hábitos."
       ],
       destaque: "O conteúdo pode ser dividido em mais de um encontro, desde que as datas marcadas sejam cumpridas.",
-      fonte: "Fonte: Gestão de Adultos – Captando adultos" },
+      fonte: "Fonte: <a href='https://escoteiros.org.br/wp-content/uploads/2021/12/captando_adultos_2021_07-12-1.pdf' target='_blank' rel='noopener'>Captando e engajando adultos para o Movimento Escoteiro</a>" },
 
     { kicker: "Primeiras semanas",
       titulo: "As primeiras semanas",
@@ -105,7 +105,7 @@ window.CONTEUDO = {
         { cor: "navy", titulo: "Convidar", paras: ["Para a próxima reunião da equipe da seção ou da diretoria de que a pessoa passa a participar."] }
       ],
       destaque: "Depois de algumas semanas, uma conversa confere se as expectativas do novo voluntário estão se cumprindo e se resta alguma dúvida. Nesse período, observa-se também se ele segue a Política de Proteção Infantojuvenil.",
-      fonte: "Fonte: Gestão de Adultos – Captando adultos" },
+      fonte: "Fonte: <a href='https://escoteiros.org.br/wp-content/uploads/2021/12/captando_adultos_2021_07-12-1.pdf' target='_blank' rel='noopener'>Captando e engajando adultos para o Movimento Escoteiro</a>" },
 
     { kicker: "Roteiro",
       titulo: "Um roteiro de ingresso",
@@ -129,7 +129,7 @@ window.CONTEUDO = {
         "POR: regras 036, sobre o registro, e 129, sobre a nomeação e os requisitos;",
         "Res. CAN 07/2023: art. 1º, parágrafo único, e art. 6º: curso de proteção e registro provisório."
       ],
-      fonte: "Fonte: Política Nacional de Adultos no Movimento Escoteiro; Gestão de Adultos – Captando adultos; POR" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>; <a href='https://escoteiros.org.br/wp-content/uploads/2021/12/captando_adultos_2021_07-12-1.pdf' target='_blank' rel='noopener'>Captando e engajando adultos para o Movimento Escoteiro</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/POR_2025_10-2.pdf' target='_blank' rel='noopener'>P.O.R. 2025</a>" },
 
     { tipo: "fim",
       titulo: "Começar bem",

@@ -11,7 +11,7 @@ window.CONTEUDO = {
       titulo: "Uma rotina, não uma inspeção",
       paras: ["O DME acompanha a aplicação do programa nas seções. Visita uma reunião, conversa com os escotistas e relata à diretoria o que pede decisão."],
       destaque: "Orientar e supervisionar não é conduzir a atividade no lugar da seção, nem avaliar o desempenho de um escotista. O objeto da visita é o programa: o que aconteceu, o que faltou e o que a diretoria precisa tratar.",
-      fonte: "Fonte: Perfis de cargos e funções – nível local" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Perfis-Cargos-e-Fun%C3%A7%C3%B5es-N%C3%ADvel-Local-set19.pdf' target='_blank' rel='noopener'>Perfis: Cargos e Funções – Nível Local</a>" },
 
     { kicker: "Registro",
       titulo: "A visita registra o que foi visto",

@@ -16,7 +16,7 @@ window.CONTEUDO = {
         { cor: "navy", titulo: "Crescimento", paras: ["Lista de espera, seção nova ou seção que aumenta."] }
       ],
       destaque: "Os chefes de seção indicam as necessidades das suas equipes. A diretoria reúne essas indicações e decide quais atender primeiro.",
-      fonte: "Fonte: Gestão de Adultos – Captando adultos; Política Nacional de Adultos" },
+      fonte: "Fonte: <a href='https://escoteiros.org.br/wp-content/uploads/2021/12/captando_adultos_2021_07-12-1.pdf' target='_blank' rel='noopener'>Captando e engajando adultos para o Movimento Escoteiro</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>" },
 
     { kicker: "Mínimo",
       titulo: "Quantos adultos: o mínimo",
@@ -33,7 +33,7 @@ window.CONTEUDO = {
           "Bastam um escotista por seção e um Diretor Presidente registrados.",
           "A função de Diretor Presidente pode ser exercida por um Diretor de Escotismo, que liga o Grupo à entidade patrocinadora."
         ] }],
-      fonte: "Fonte: Resolução CAN 07/2023, art. 12" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2023/11/Resolucao-CAN-07-23-Disciplina-a-pratica-do-Escotismo-no-Brasil.pdf-VALIDA.pdf' target='_blank' rel='noopener'>Resolução CAN 07/2023</a>, art. 12" },
 
     { kicker: "Mínimo",
       titulo: "O mínimo não é a meta",
@@ -43,7 +43,7 @@ window.CONTEUDO = {
         { cor: "navy", titulo: "Equipe de seção", paras: ["Quantos escotistas a seção precisa depende do número de jovens, da rotina e das atividades fora da sede. Cada UEL define a sua meta de composição."] },
         { cor: "yellow", titulo: "Diretoria e Comissão Fiscal", paras: ["Os cargos estão no estatuto. Cargo eletivo segue a forma de provimento do estatuto, e a divulgação a informa."] }
       ],
-      fonte: "Fonte: POR, Regras 066, 078, 094 e 110" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/POR_2025_10-2.pdf' target='_blank' rel='noopener'>P.O.R. 2025</a>, Regras 066, 078, 094 e 110" },
 
     { kicker: "Perfil",
       titulo: "Perfil: a função descrita",
@@ -55,7 +55,7 @@ window.CONTEUDO = {
         { cor: "yellow", titulo: "Apoio", paras: ["O que a UEL oferece: acompanhamento e formação."] }
       ],
       destaque: "Experiência prévia não é um ponto essencial. A disposição para trabalhar em equipe e para aprender pesa mais.",
-      fonte: "Fonte: Perfis: cargos e funções – nível local; Gestão de Adultos – Captando adultos" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Perfis-Cargos-e-Fun%C3%A7%C3%B5es-N%C3%ADvel-Local-set19.pdf' target='_blank' rel='noopener'>Perfis: Cargos e Funções – Nível Local</a>; <a href='https://escoteiros.org.br/wp-content/uploads/2021/12/captando_adultos_2021_07-12-1.pdf' target='_blank' rel='noopener'>Captando e engajando adultos para o Movimento Escoteiro</a>" },
 
     { kicker: "Perfil",
       titulo: "O que se espera de todo adulto",
@@ -78,7 +78,7 @@ window.CONTEUDO = {
         "articulador de redes colaborativas"
       ],
       destaque: "O perfil da função acrescenta o que é próprio daquela vaga.",
-      fonte: "Fonte: Perfil geral do adulto que necessitamos" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2026/04/Perfil_geral_do_adulto_que_necessitamos.pdf' target='_blank' rel='noopener'>Perfil geral do adulto que necessitamos</a>" },
 
     { kicker: "Público",
       titulo: "Onde procurar",
@@ -88,7 +88,7 @@ window.CONTEUDO = {
         { cor: "yellow", titulo: "Na comunidade", paras: ["Universitários, profissionais que trabalham com juventude, amigos e colegas de trabalho, pessoas da terceira idade."] }
       ],
       destaque: "O público decorre do perfil. Para uma função de diretoria, o público pode não ser o mesmo de uma seção.",
-      fonte: "Fonte: Gestão de Adultos – Captando adultos" },
+      fonte: "Fonte: <a href='https://escoteiros.org.br/wp-content/uploads/2021/12/captando_adultos_2021_07-12-1.pdf' target='_blank' rel='noopener'>Captando e engajando adultos para o Movimento Escoteiro</a>" },
 
     { kicker: "Divulgação",
       titulo: "Uma divulgação clara",
@@ -108,7 +108,7 @@ window.CONTEUDO = {
           "Palestra informativa, uma em cada semestre, se possível, e contato com universidades."
         ] }],
       destaque: "Antes de divulgar, confira se o texto responde a esses cinco pontos.",
-      fonte: "Fonte: Gestão de Adultos – Captando adultos" },
+      fonte: "Fonte: <a href='https://escoteiros.org.br/wp-content/uploads/2021/12/captando_adultos_2021_07-12-1.pdf' target='_blank' rel='noopener'>Captando e engajando adultos para o Movimento Escoteiro</a>" },
 
     { kicker: "Fluxo",
       titulo: "O fluxo até a entrevista",
@@ -129,7 +129,7 @@ window.CONTEUDO = {
         "a aproximação é dinâmica e atraente, e ao mesmo tempo séria e segura."
       ],
       destaque: "Os documentos, as certidões e a aprovação da diretoria vêm depois da entrevista, no ingresso.",
-      fonte: "Fonte: Gestão de Adultos – Captando adultos" },
+      fonte: "Fonte: <a href='https://escoteiros.org.br/wp-content/uploads/2021/12/captando_adultos_2021_07-12-1.pdf' target='_blank' rel='noopener'>Captando e engajando adultos para o Movimento Escoteiro</a>" },
 
     { tipo: "fim",
       titulo: "Perfil antes da vaga",

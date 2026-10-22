@@ -16,7 +16,7 @@ window.CONTEUDO = {
         { cor: "navy", titulo: "Decisões para o futuro", paras: ["O que vem a seguir, a partir do resultado da avaliação."] }
       ],
       destaque: "As três etapas formam uma sequência: sem apoio e sem avaliação, a decisão perde a base.",
-      fonte: "Fonte: Política Nacional de Adultos no Movimento Escoteiro" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>" },
 
     { kicker: "Apoio",
       titulo: "Apoio na tarefa",
@@ -27,7 +27,7 @@ window.CONTEUDO = {
         "confiança na delegação: a pessoa assume a responsabilidade por projetos e atividades da função."
       ],
       destaque: "Todo voluntário precisa receber feedback sobre o trabalho que está desempenhando. O apoio respeita o ritmo e a disponibilidade de cada um.",
-      fonte: "Fonte: Política Nacional de Adultos no Movimento Escoteiro; Gestão de Adultos – Captando adultos" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>; <a href='https://escoteiros.org.br/wp-content/uploads/2021/12/captando_adultos_2021_07-12-1.pdf' target='_blank' rel='noopener'>Captando e engajando adultos para o Movimento Escoteiro</a>" },
 
     { kicker: "Quem",
       titulo: "Quem acompanha e quando",
@@ -37,7 +37,7 @@ window.CONTEUDO = {
         { cor: "yellow", titulo: "O diretor de métodos educativos", paras: ["Coordena a captação, a formação e o acompanhamento dos voluntários e faz reuniões de acompanhamento com os escotistas."] }
       ],
       destaque: "Uma rotina define, para cada adulto, quem acompanha, com que frequência há conversa e o que se registra. A avaliação de desempenho ocorre pelo menos uma vez por ano, especialmente na renovação do acordo, inclusive para os cargos eletivos.",
-      fonte: "Fonte: Perfis: cargos e funções – nível local; Política Nacional de Adultos no Movimento Escoteiro" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Perfis-Cargos-e-Fun%C3%A7%C3%B5es-N%C3%ADvel-Local-set19.pdf' target='_blank' rel='noopener'>Perfis: Cargos e Funções – Nível Local</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>" },
 
     { kicker: "Registro",
       titulo: "O que se registra",
@@ -55,7 +55,7 @@ window.CONTEUDO = {
           "Informação de outra pessoa: registra-se quem informou e verifica-se antes de usá-la numa conversa ou numa decisão."
         ] }],
       destaque: "A participação ativa do adulto é essencial: o registro não é feito só sobre ele, mas com ele.",
-      fonte: "Fonte: Center for Creative Leadership – SBI; Entendendo a função: Assessor Pessoal de Formação" },
+      fonte: "Fonte: Center for Creative Leadership – SBI; <a href='https://www.escoteiros.org.br/wp-content/uploads/2016/02/Manual_do_APF.pdf' target='_blank' rel='noopener'>Entendendo a função: Assessor Pessoal de Formação</a>" },
 
     { kicker: "Avaliação",
       titulo: "Avaliação de desempenho",
@@ -79,7 +79,7 @@ window.CONTEUDO = {
             "Decisões e formação: o resultado orienta as decisões para o futuro e as novas atividades de formação."
           ],
           porque: "O resultado orienta as decisões para o futuro e as novas atividades de formação." } ],
-      fonte: "Fonte: Política Nacional de Adultos no Movimento Escoteiro; Entendendo a função: Assessor Pessoal de Formação" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2016/02/Manual_do_APF.pdf' target='_blank' rel='noopener'>Entendendo a função: Assessor Pessoal de Formação</a>" },
 
     { kicker: "Feedback",
       titulo: "Feedback",
@@ -90,7 +90,7 @@ window.CONTEUDO = {
         { cor: "navy", titulo: "Em diálogo", paras: ["Ouve a pessoa e termina com um próximo passo combinado."] }
       ],
       destaque: "A conversa pede um clima de transparência e confiança. Quem dá feedback também precisa saber escutar e estar aberto ao que ouve.",
-      fonte: "Fonte: Entendendo a função: Assessor Pessoal de Formação; Gestão de Adultos – Captando adultos; Center for Creative Leadership – SBI" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2016/02/Manual_do_APF.pdf' target='_blank' rel='noopener'>Entendendo a função: Assessor Pessoal de Formação</a>; <a href='https://escoteiros.org.br/wp-content/uploads/2021/12/captando_adultos_2021_07-12-1.pdf' target='_blank' rel='noopener'>Captando e engajando adultos para o Movimento Escoteiro</a>; Center for Creative Leadership – SBI" },
 
     { kicker: "Modelo",
       titulo: "Um modelo para a conversa",
@@ -119,7 +119,7 @@ window.CONTEUDO = {
         "encerrar sem combinado e sem data para a próxima conversa."
       ],
       destaque: "O foco são o trabalho e os resultados, não a pessoa.",
-      fonte: "Fonte: Center for Creative Leadership – SBI; Entendendo a função: Assessor Pessoal de Formação" },
+      fonte: "Fonte: Center for Creative Leadership – SBI; <a href='https://www.escoteiros.org.br/wp-content/uploads/2016/02/Manual_do_APF.pdf' target='_blank' rel='noopener'>Entendendo a função: Assessor Pessoal de Formação</a>" },
 
     { kicker: "Equipe",
       titulo: "Relações na equipe",
@@ -130,7 +130,7 @@ window.CONTEUDO = {
         "há momentos para que os adultos convivam e se conheçam, além das atividades com os jovens."
       ],
       destaque: "O acompanhamento favorece um clima de transparência e confiança na equipe e ajuda a identificar que ações podem estimular um trabalho com melhores resultados.",
-      fonte: "Fonte: Gestão de Adultos – Captando adultos; Entendendo a função: Assessor Pessoal de Formação" },
+      fonte: "Fonte: <a href='https://escoteiros.org.br/wp-content/uploads/2021/12/captando_adultos_2021_07-12-1.pdf' target='_blank' rel='noopener'>Captando e engajando adultos para o Movimento Escoteiro</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2016/02/Manual_do_APF.pdf' target='_blank' rel='noopener'>Entendendo a função: Assessor Pessoal de Formação</a>" },
 
     { kicker: "Decisões",
       titulo: "Decisões para o futuro",
@@ -148,7 +148,7 @@ window.CONTEUDO = {
           "Na conversa, agradece-se o trabalho feito, combina-se a passagem das tarefas e registra-se o encerramento."
         ] }],
       destaque: "A decisão parte da avaliação e é conversada antes do vencimento do acordo, para que não chegue como surpresa.",
-      fonte: "Fonte: Política Nacional de Adultos no Movimento Escoteiro; POR" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/POR_2025_10-2.pdf' target='_blank' rel='noopener'>P.O.R. 2025</a>" },
 
     { kicker: "Leitura",
       titulo: "Roteiro de leitura",
@@ -160,7 +160,7 @@ window.CONTEUDO = {
         "Perfis p. 20, 21 e 43: o chefe de seção e o diretor de métodos educativos no acompanhamento;",
         "POR: regras 040, VI e VII, e 129, VI e VII: acordo, registro e exoneração."
       ],
-      fonte: "Fonte: PNAME; Entendendo a função: APF; Captando adultos; Perfis; POR" },
+      fonte: "Fonte: <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Politica_Nacional_Adultos.pdf' target='_blank' rel='noopener'>PNAME (Política Nacional de Adultos no Movimento Escoteiro)</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2016/02/Manual_do_APF.pdf' target='_blank' rel='noopener'>Entendendo a função: Assessor Pessoal de Formação</a>; <a href='https://escoteiros.org.br/wp-content/uploads/2021/12/captando_adultos_2021_07-12-1.pdf' target='_blank' rel='noopener'>Captando e engajando adultos para o Movimento Escoteiro</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/Perfis-Cargos-e-Fun%C3%A7%C3%B5es-N%C3%ADvel-Local-set19.pdf' target='_blank' rel='noopener'>Perfis: Cargos e Funções – Nível Local</a>; <a href='https://www.escoteiros.org.br/wp-content/uploads/2020/07/POR_2025_10-2.pdf' target='_blank' rel='noopener'>P.O.R. 2025</a>" },
 
     { tipo: "fim",
       titulo: "Acompanhar para decidir",
